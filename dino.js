@@ -53,7 +53,7 @@ window.onload = function() {
     //context.fillRect(dino.x, dino.y, dino.width, dino.height);
 
     dinoImg = new Image();
-    dinoImg.src = "./img/dino.png";
+    dinoImg.src = "./img/cactus1.png";
     dinoImg.onload = function() {
         context.drawImage(dinoImg, dino.x, dino.y, dino.width, dino.height);
     }
