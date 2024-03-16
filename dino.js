@@ -53,7 +53,7 @@ window.onload = function() {
     //context.fillRect(dino.x, dino.y, dino.width, dino.height);
 
     dinoImg = new Image();
-    dinoImg.src = "./img/cactus1.png";
+    dinoImg.src = "./img/turkish-man.png";
     dinoImg.onload = function() {
         context.drawImage(dinoImg, dino.x, dino.y, dino.width, dino.height);
     }
@@ -95,7 +95,7 @@ function update() {
 
         if(detectCollision(dino, cactus)) {
             gameOver = true;
-            dinoImg.src = "./img/dino-dead.png";
+            dinoImg.src = "./img/cactus3.png";
             dinoImg.onload = function() {
                 context.drawImage(dinoImg, dino.x, dino.y, dino.width, dino.height);
             }
